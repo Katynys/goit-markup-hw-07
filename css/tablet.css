@@ -1,0 +1,44 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .hero {
+        background-image: var(--gra), url(../images/hero-bg.jpg);
+        padding-bottom: 108px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+    background-image: var(--gra), url(../images/hero-bg-2x.jpg);
+    }
+    }
+
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        text-transform: none;
+        margin-bottom: 40px;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .features-list {
+        column-gap: 24px;
+        row-gap: 72px;
+        flex-basis: calc((100% - 24px)/2);
+    }
+    
+    .features-item {
+        flex-basis: calc((100% - 24px)/2);
+    }
+
+    .features-title {
+        text-align: left;
+    }
+    
+
+}
