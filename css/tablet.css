@@ -29,16 +29,15 @@
     .features-list {
         column-gap: 24px;
         row-gap: 72px;
-        flex-basis: calc((100% - 24px)/2);
     }
     
     .features-item {
-        flex-basis: calc((100% - 24px)/2);
+        max-width: 356px;
+        flex-basis: calc((100% - 24px) / 2);
     }
 
     .features-title {
         text-align: left;
     }
     
-
 }
