@@ -182,6 +182,8 @@
     
     .subscribe-email {
         width: 264px;
+        margin-right: 24px;
     }
 
+    
 }
