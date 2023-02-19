@@ -2,11 +2,35 @@
     .container {
         max-width: 1158px;
     }
-
+    
     .header-logo {
         margin-right: 76px;
     }
+    
+    .header-email {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        margin-right: 40px;
+    }
+    
+    
+    .header-phone {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+    
+    .header-address {
+        display: flex;
+    }
+    
+    
+    .current::after {
+        bottom: -24px;
+    }
 
+    
     .hero {
     padding-top: 188px;
     padding-bottom: 188px;
@@ -104,6 +128,11 @@
     .footer-content {
         column-gap: 0;
         row-gap: 0;
+    }
+
+    .logo-footer {
+        text-align: left;
+        color: #F4F4FD;
     }
 
     .social-links {
