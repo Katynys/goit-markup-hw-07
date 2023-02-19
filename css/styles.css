@@ -440,8 +440,8 @@ img {
 /*------------------ CUSTOMERS -------------------*/
 
 .customers {
-    padding-top: 130px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .customer-title {
@@ -456,11 +456,12 @@ img {
 
 .customer-list {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 .customer-item {
-    width: calc((100% - 5*24px)/6);
+    width: calc((100% - 16px)/2);
     height: 88px;
 }
 .customer-link {
