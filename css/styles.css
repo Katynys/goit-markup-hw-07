@@ -326,6 +326,7 @@ img {
 /*------------------ SECTION 2 -------------------*/
 
 .functions {
+    display: none;
     padding-bottom: 120px;
 }
 .function-title {

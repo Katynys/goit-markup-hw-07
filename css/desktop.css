@@ -29,7 +29,6 @@
         display: flex;
         flex-wrap: nowrap;
         gap: 24px;
-        flex-basis: calc((100% - 3*24px)/4);
     }
 
     .features-item {
@@ -57,7 +56,9 @@
         display: flex;
     }
 
-
+    .functions {
+        display: flex;
+    }
 
 
 
