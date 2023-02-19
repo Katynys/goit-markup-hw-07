@@ -3,6 +3,10 @@
         max-width: 1158px;
     }
 
+    .header-logo {
+        margin-right: 76px;
+    }
+
     .hero {
     padding-top: 188px;
     padding-bottom: 188px;
@@ -90,6 +94,29 @@
         width: calc((100% - 5*24px)/6);
         height: 88px;
     }
+
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+
+    .footer-content {
+        column-gap: 0;
+        row-gap: 0;
+    }
+
+    .social-links {
+        margin-left: 120px;
+        margin-top: 0;
+    }
+    
+    .footer-subscribe {
+        margin-left: auto;
+    }
+    
+    
+    
 
 
 

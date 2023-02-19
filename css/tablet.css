@@ -66,4 +66,45 @@
         width: calc((100% - 2*24px)/3);
     }
 
+    .footer {
+        display: flex;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        max-width: 584px;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .logo-footer {
+        text-align: left;
+    }
+
+    .social-links-text {
+        text-align: left;
+    }
+
+    .footer-subscribe {
+        margin-top: 0;
+    }
+
+    .footer-subscribe-text {
+        text-align: left;
+    }
+
+    .subscribe-form {
+        display: flex;
+    }
+
+    .subscribe-btn {
+        margin-top: 0;
+    }
+    
+    .subscribe-email {
+        width: 264px;
+    }
+
 }
