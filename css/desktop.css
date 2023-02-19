@@ -57,8 +57,26 @@
     }
 
     .functions {
-        display: flex;
+        display: block;
     }
+
+    .team {
+        background: #F4F4FD;
+        padding-top: 120px;
+        padding-bottom: 110px;
+    }
+
+    .team-list {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+    }
+
+    .team-card {
+        flex-basis: calc((100% - 3*24px)/4);
+    }
+
+    
 
 
 

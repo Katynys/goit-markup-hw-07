@@ -40,4 +40,25 @@
         text-align: left;
     }
     
+
+    .narrow-container {
+        max-width: 584px;
+    }
+
+    .team {
+        padding-top: 96px;
+        padding-bottom: 104px;
+    }
+
+    .team-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 64px;
+    }
+
+    .team-card {
+        flex-basis: calc((100% - 24px)/2);
+    }
+
 }
