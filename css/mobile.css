@@ -23,4 +23,19 @@
         flex-wrap: nowrap;
         font-size: 12px;
     }
+
+    .mob-phone {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1.1;
+        text-transform: capitalize;
+        color: #4D5AE5;
+    }
+
+    .mob-soc-list {
+        display: flex;
+        gap: 56px;
+        margin-top: 48px;
+    }
 }
