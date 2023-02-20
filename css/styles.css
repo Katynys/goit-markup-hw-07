@@ -48,6 +48,10 @@ img {
     text-decoration: none;
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 .container {
     width: 100%;
     padding: 0 16px;
@@ -126,6 +130,8 @@ img {
     stroke: #2E2F42;
 }
 
+
+
 /*------------------ MENU -------------------*/
 
 .mob-menu {
@@ -136,7 +142,17 @@ img {
     height: 100vh;
     padding: 40px 40px;
     background-color:  #FFFFFF;
+    transform:translateX(100%);
+    transition-property: transform; 
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.mob-menu.is-open {
+    transform: translateX(0);
+}
+
+
 
 .mob-container {
     width: 100%;
