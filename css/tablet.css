@@ -187,8 +187,8 @@
 
     .modal {
         width: 408px;
-        height: auto;
+        /* height: auto;
         max-height: none;
-        min-height: 586px;
+        min-height: 586px; */
     }
 }
