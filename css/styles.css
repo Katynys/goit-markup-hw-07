@@ -573,6 +573,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
+    row-gap: 72px;
 }
 
 .customer-item {
