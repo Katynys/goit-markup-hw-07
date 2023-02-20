@@ -13,6 +13,14 @@
     .hero {
     background-image: var(--gra), url(../images/hero-bg-tab-2x.jpg);
     }
-}
+    }
+    .modal {
+        width: 392px;
+        max-height: 586px;
+    }
 
+    .check-text {
+        flex-wrap: nowrap;
+        font-size: 12px;
+    }
 }

@@ -185,5 +185,10 @@
         margin-right: 24px;
     }
 
-    
+    .modal {
+        width: 408px;
+        height: auto;
+        max-height: none;
+        min-height: 586px;
+    }
 }

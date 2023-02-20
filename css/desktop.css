@@ -144,6 +144,9 @@
         margin-left: auto;
     }
     
+    .modal {
+        min-height: 584px;
+    }
     
     
     
