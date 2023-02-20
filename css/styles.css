@@ -182,8 +182,12 @@ img {
 .modal-close {
     
 }
-.icon- {
+.icon-close {
+    width: 8px;
+    height: 8px;
+    -webkit-transform: translateZ(0);
 }
+
 .mob-list {
     margin-bottom: 40px;
 }
